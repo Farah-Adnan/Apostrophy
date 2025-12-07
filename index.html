@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="main-nav">
+            <div class="logo">
+                <img width="60" src="tour-removebg-preview.png" alt="">
+                <h3>المرسى</h3>
+            </div>
+
+            <i id="icon-mobile" class="nav-tag fa-solid fa-bars "></i>
+
+            <div class="services">
+                <ul id="ul-mobile">
+                    <li>خدماتنا</li>
+                    <li>الرحلات</li>
+                    <li>اتصل بنا</li>
+                </ul>
+            </div>
+
+            <div class="lang">
+                <h3>اللغة العربية</h3>
+                <i class="fa-solid fa-earth-americas"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="main-hero">
+            <div class="left-hero">
+            </div>
+            <div class="right-hero">
+                <div class="form-register">
+                    <h3 class="form-title">سجّل معنا وانطلق في رحلتك القادمة</h3>
+                    <form action="" id="myFormRegister">
+
+                        <span>الاسم</span>
+                        <div class="form-comp">
+                            <input id="#name" type="text" placeholder="الرجاء ادخال الاسم" required>
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <span>البريد الإلكتروني</span>
+
+                        <div class="form-comp">
+                            <input id="mail" type="email" placeholder="الرجاء ادخال بريدك الإلكتروني" required
+                                pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <span>كلمة المرور</span>
+
+                        <div class="form-comp">
+                            <input id="password" type="password" placeholder="الرجاء ادخال كلمة المرور" required
+                                minlength="8">
+                                <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <span>تأكيد كلمة المرور</span>
+
+                        <div class="form-comp">
+                            <input id="confirm" type="password" placeholder="الرجاء تأكيد كلمة المرور" required
+                                minlength="8">
+                                <i class="fa-solid fa-lock"></i>
+
+                        </div>
+
+                        <input type="submit" value="تسجيل" onclick="registerValidation()" class="btn">
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="main-foot">
+            <div class="info">
+                <h3>المرسى للسياحة والسفر</h3>
+                <p>خدمات متكاملة، راحة مضمونة من التذاكر إلى الإقامة، كل شيء مُرتب.</p>
+            </div>
+            <div class="srv-info">
+
+
+                <ul>
+                    <h3> خدماتنا</h3>
+                    <a href="">
+                        <li>رحلات</li>
+                    </a>
+                    <a href="">
+                        <li>سياحة</li>
+                    </a>
+                    <a href="">
+                        <li>العروض</li>
+                    </a>
+               
+
+                </ul>
+            </div>
+            <div class="social">
+                <h3> تواصل معنا</h3>
+
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+        <div class="copy-right">
+            <h5> 
+كافة الحقوق محفوظة لصالح المؤسسة <span>&copy;</span></h5>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
